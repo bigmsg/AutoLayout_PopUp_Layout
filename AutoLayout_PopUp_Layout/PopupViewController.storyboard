@@ -58,13 +58,6 @@
                                             <constraint firstAttribute="width" constant="70" id="WCz-BT-FbX"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add_icon_green.png" translatesAutoresizingMaskIntoConstraints="NO" id="oa2-Wz-WEj">
-                                        <rect key="frame" x="215" y="-25" width="50" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="bKu-X6-C7G"/>
-                                            <constraint firstAttribute="width" constant="50" id="xjA-Op-DDw"/>
-                                        </constraints>
-                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -85,18 +78,29 @@
                                     <constraint firstItem="zB8-zB-ILK" firstAttribute="top" secondItem="Lyw-xN-oxw" secondAttribute="bottom" constant="20" id="VET-hm-VrG"/>
                                     <constraint firstItem="oev-3I-2oZ" firstAttribute="height" secondItem="lxG-ft-Pjw" secondAttribute="height" id="cfE-HK-mRe"/>
                                     <constraint firstItem="q3O-2K-sBI" firstAttribute="top" secondItem="zB8-zB-ILK" secondAttribute="bottom" constant="20" id="dH9-gG-5M7"/>
-                                    <constraint firstAttribute="trailing" secondItem="oa2-Wz-WEj" secondAttribute="centerX" id="dha-P6-eZe"/>
                                     <constraint firstItem="lxG-ft-Pjw" firstAttribute="trailing" secondItem="q3O-2K-sBI" secondAttribute="trailing" id="faj-uQ-lAs"/>
                                     <constraint firstItem="lxG-ft-Pjw" firstAttribute="centerY" secondItem="oev-3I-2oZ" secondAttribute="centerY" id="hrk-uP-Ycs"/>
                                     <constraint firstAttribute="bottom" secondItem="oev-3I-2oZ" secondAttribute="bottom" constant="20" id="i6Z-GM-G6s"/>
-                                    <constraint firstItem="oa2-Wz-WEj" firstAttribute="centerY" secondItem="FQf-1a-Nfa" secondAttribute="top" id="p8q-KQ-rd5"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pO8-sN-yIk">
+                                <rect key="frame" x="282.5" y="89.5" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="8FH-jj-XWv"/>
+                                    <constraint firstAttribute="width" constant="50" id="e9l-02-33X"/>
+                                </constraints>
+                                <state key="normal" image="add_icon_green.png"/>
+                                <connections>
+                                    <action selector="dismissPopup:" destination="Rdz-ao-uZd" eventType="touchUpInside" id="E3J-Ww-7kA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="FQf-1a-Nfa" firstAttribute="centerY" secondItem="cKW-oO-Wd4" secondAttribute="centerY" multiplier="90%" id="Cyl-yf-vlU"/>
+                            <constraint firstItem="pO8-sN-yIk" firstAttribute="centerX" secondItem="FQf-1a-Nfa" secondAttribute="trailing" id="Q0f-9I-JY7"/>
                             <constraint firstItem="FQf-1a-Nfa" firstAttribute="centerX" secondItem="cKW-oO-Wd4" secondAttribute="centerX" id="YV9-i3-osB"/>
+                            <constraint firstItem="pO8-sN-yIk" firstAttribute="centerY" secondItem="FQf-1a-Nfa" secondAttribute="top" id="sW7-qH-T63"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="DuZ-4Z-l6z"/>
                     </view>
