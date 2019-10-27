@@ -14,6 +14,11 @@
 		33D4F04523652C5A0012009F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D4F04323652C5A0012009F /* LaunchScreen.storyboard */; };
 		33D4F05023652C5A0012009F /* AutoLayout_PopUp_LayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4F04F23652C5A0012009F /* AutoLayout_PopUp_LayoutTests.swift */; };
 		33D4F05B23652C5A0012009F /* AutoLayout_PopUp_LayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4F05A23652C5A0012009F /* AutoLayout_PopUp_LayoutUITests.swift */; };
+		33D4F06923652CE20012009F /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4F06823652CE20012009F /* PopupViewController.swift */; };
+		33D4F06B23652D4F0012009F /* PopupViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D4F06A23652D4F0012009F /* PopupViewController.storyboard */; };
+		33D4F06D23652E6E0012009F /* balloon_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 33D4F06C23652E6E0012009F /* balloon_3.png */; };
+		33D4F06F23652E810012009F /* bg5.png in Resources */ = {isa = PBXBuildFile; fileRef = 33D4F06E23652E810012009F /* bg5.png */; };
+		33D4F0712365362E0012009F /* add_icon_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 33D4F0702365362E0012009F /* add_icon_green.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		33D4F05623652C5A0012009F /* AutoLayout_PopUp_LayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayout_PopUp_LayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D4F05A23652C5A0012009F /* AutoLayout_PopUp_LayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout_PopUp_LayoutUITests.swift; sourceTree = "<group>"; };
 		33D4F05C23652C5A0012009F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D4F06823652CE20012009F /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		33D4F06A23652D4F0012009F /* PopupViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopupViewController.storyboard; sourceTree = "<group>"; };
+		33D4F06C23652E6E0012009F /* balloon_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon_3.png; sourceTree = "<group>"; };
+		33D4F06E23652E810012009F /* bg5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg5.png; sourceTree = "<group>"; };
+		33D4F0702365362E0012009F /* add_icon_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_icon_green.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,11 @@
 				33D4F03A23652C590012009F /* AppDelegate.swift */,
 				33D4F03C23652C590012009F /* ViewController.swift */,
 				33D4F03E23652C590012009F /* Main.storyboard */,
+				33D4F06A23652D4F0012009F /* PopupViewController.storyboard */,
+				33D4F06823652CE20012009F /* PopupViewController.swift */,
+				33D4F0702365362E0012009F /* add_icon_green.png */,
+				33D4F06C23652E6E0012009F /* balloon_3.png */,
+				33D4F06E23652E810012009F /* bg5.png */,
 				33D4F04123652C5A0012009F /* Assets.xcassets */,
 				33D4F04323652C5A0012009F /* LaunchScreen.storyboard */,
 				33D4F04623652C5A0012009F /* Info.plist */,
@@ -229,9 +244,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D4F06F23652E810012009F /* bg5.png in Resources */,
+				33D4F06B23652D4F0012009F /* PopupViewController.storyboard in Resources */,
 				33D4F04523652C5A0012009F /* LaunchScreen.storyboard in Resources */,
 				33D4F04223652C5A0012009F /* Assets.xcassets in Resources */,
+				33D4F06D23652E6E0012009F /* balloon_3.png in Resources */,
 				33D4F04023652C590012009F /* Main.storyboard in Resources */,
+				33D4F0712365362E0012009F /* add_icon_green.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +277,7 @@
 			files = (
 				33D4F03D23652C590012009F /* ViewController.swift in Sources */,
 				33D4F03B23652C590012009F /* AppDelegate.swift in Sources */,
+				33D4F06923652CE20012009F /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

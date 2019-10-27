@@ -12,9 +12,26 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
     }
 
-
+    @IBAction func showPopup(_ sender: Any) {
+        // PopupViewController
+        
+        let storyBoard = UIStoryboard.init(name: "PopupViewController", bundle: nil)
+        
+        let popupVC = storyBoard.instantiateViewController(withIdentifier: "popupVC")
+        
+        
+        /*
+         superview의 배경색 opacity 반투명으로 조정, alpha 조정하면 superview안의 모든  위젯이 반투명으로 됨X
+         */
+        popupVC.modalPresentationStyle = .overCurrentContext
+        //self.present(popupVC, animated: true, completion: nil)
+        self.present(popupVC, animated: false) {
+            
+        }
+    }
+    
 }
 
